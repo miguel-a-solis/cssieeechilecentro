@@ -1,0 +1,138 @@
+/*-----------GENERAL-----------*/
+
+
+/*Color fuentes menú superior (página inicio como internas)*/
+ul.dropdown-menu>li {
+    color: #035b98;
+}
+
+/*Tamaño de las fuentes del menú superior (página inicio como internas)*/
+ul.dropdown-menu>li>a {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/*Color de las fuentes del menú principal cuando se pasa el mouse por sobre los títutlos*/
+ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item).hover>a,ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item):hover>a,ul.dropdown-menu.active-line-top>li:not(.current-menu-item):not(.current_page_item).hover>a,ul.dropdown-menu.active-line-top>li:not(.current-menu-item):not(.current_page_item):hover>a,ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item).hover>a,ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item):hover>a {
+    color: #cc6600;
+}
+
+/*Color y tamaño línea que destaca la opción en el menú superior (página inicio como internas)*/
+ul.dropdown-menu.active-line-bottom>.current-menu-item>a,ul.dropdown-menu.active-line-bottom>.current_page_item>a,ul.dropdown-menu.default>.current-menu-item>a,ul.dropdown-menu.default>.current_page_item>a {
+    border-bottom: 3px solid #035b98;
+}
+
+/*Color del título del menú que al estar con línea y colocar el mouse se va a mostrar*/
+    ul.dropdown-menu>li.hover>a,ul.dropdown-menu>li:hover>a {
+    color: #035b98;
+}
+
+/*Ocultar footer*/
+.footer-simple .footer-content {
+    display: none;
+    /*padding-top: 40px;*/
+    /*padding-bottom: 40px;*/
+    /*border-top: 1px solid #e8e8e8;*/
+}
+
+/*Elimina el scroll vertical*/
+::-webkit-scrollbar {
+    display: none;
+}
+
+/*Ajuste del color de fondo para dispositivos móviles*/
+#offcanvas-wrapper {
+    transition: transform .3s linear;
+    left: auto;
+    right: 0;
+    background-color: #ffffff;
+    padding: 0;
+    overflow: auto;
+    z-index: 99999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -moz-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column
+}
+
+/*Ajuste del color de fuentes para dispositivos móviles*/
+.offcanvas_menu li {
+    color: #035b98;
+    border-bottom: 1px solid rgba(128,128,128,.2);
+    font-size: .8rem;
+    text-align: left;
+    transition: all .1s linear;
+}
+
+/*Ajusta el color de una selección en el menpu a #cc6600 en dispositivos móviles*/
+.offcanvas_menu li.open>a, .offcanvas_menu li.open>a:hover {
+    background-color: #ffffff;
+    color: #cc6600;
+    border-left: 3px solid #2395F6;
+}
+
+/*Color del botón en el inicio*/
+.button.color1 {
+    color: #ffffff;
+    background-color: #035b98;
+    border-color: #035b98
+}
+
+/*Posición del botón en el inicio*/
+.header-buttons-wrapper .button {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: -105px;
+}
+
+/*Color de cambio del botón al pasar el mouse*/
+.button.color1:hover {
+    color: #ffffff;
+    background-color: #cc6600;
+    border-color: #cc6600;
+}
+/*Tamaño de fuente del botón en la página de inicio*/
+.button.big {
+    font-size: 15px;
+    font-weight: 700;
+    padding: .65rem 2rem;
+    border-radius: 100px;
+    line-height: 1.6rem;
+}
+
+/*Color de fuente de los submenús*/
+ul.dropdown-menu ul li {
+    border-top: 0;
+    color: #035b98;
+    line-height: 120%;
+    font-weight: 600;
+    position: relative;
+    padding: 0;
+    font-size: 14px;
+}
+
+/*Color de fuente de los submenús al pasar el mouse sobre ellos*/
+ul.dropdown-menu ul li.hover,ul.dropdown-menu ul li:hover {
+    background-color: #f8f8f8;
+    color: #cc6600;
+}
+
+/*Color del menú para móviles*/
+a i.fa,a.icon-link i.fa {
+    color: #035b98;
+}
